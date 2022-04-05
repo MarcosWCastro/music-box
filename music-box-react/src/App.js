@@ -1,12 +1,13 @@
 import React from "react";
-import Votacao from "./pages/Votacoes";
+import Musicas from "./pages/Musicas";
+import './html-css-template/css/reset.css';
+import './html-css-template/css/style.css';
 
 function App() {
 
   return (
     <>
-    <Votacao titulo="BK"/>
-    <Votacao titulo="MC"/>
+    <Musicas titulo="BK"/>
     </>
   );
 }
